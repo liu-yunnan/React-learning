@@ -87,9 +87,11 @@ function App () {
         <div className="comment-list">
           {state.list.map(item => (
             <div className="list-item">
+              {/* 头像 */}
               <div className="user-face">
                 <img className="user-head" src={avatar} alt="" />
               </div>
+              {/* 评论 */}
               <div className="comment">
                 <div className="user">{item.author}</div>
                 <p className="text">{item.comment}</p>
