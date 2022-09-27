@@ -35,7 +35,7 @@ class LoginController extends React.Component {
     //   button = <button className="btn" onClick={this.handleLoginClick}>Login</button>
     // }
     return (
-      <div className="LoginController">
+      <div className="LoginController modle">
         <Greeting isLoggendIn={isLoggendIn} />
         {/* {button} */}
         {isLoggendIn ?

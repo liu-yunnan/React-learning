@@ -2,8 +2,10 @@ import Clock from "./clock"
 import Welcome from "./welcom"
 import Form from "./form"
 import LoginController from "./LoginController"
-import Mailbox from "../Mailbox"
+import Mailbox from "./Mailbox"
 import WarningBanner from './WarningBanner'
+import NumberList from "./NumberList"
+import FlavorForm from "./FlavorFrom"
 function Components (props) {
   const messages = ['React', 'Re: React', 'Re:Re: React']
   return (
@@ -21,6 +23,8 @@ function Components (props) {
       <LoginController />
       <Mailbox unreadMessages={messages} />
       <WarningBanner />
+      <NumberList numbers={[1, 2, 3, 4, 5]} />
+      <FlavorForm />
     </div>
   )
 }

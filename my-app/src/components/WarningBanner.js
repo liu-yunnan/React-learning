@@ -21,7 +21,7 @@ class Page extends React.Component {
   }
   render () {
     return (
-      <div className="WarningBanner">
+      <div className="WarningBanner modle">
         <button className="btn" onClick={this.handleWarningClick}>
           {this.state.showWarning ? 'Hide' : 'Show'}
         </button>
