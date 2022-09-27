@@ -228,3 +228,12 @@ ul{
   list-style-type: none;
   text-align: left;
 }
+section{
+  text-align: left;
+  text-indent: 2em;
+}
+code{
+  background: #e8e8e8;
+  margin: 0 5px;
+  padding: 0 5px;
+}

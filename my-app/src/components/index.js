@@ -6,6 +6,7 @@ import Mailbox from "./Mailbox"
 import WarningBanner from './WarningBanner'
 import NumberList from "./NumberList"
 import FlavorForm from "./FlavorFrom"
+import Reservation from "./Reservation"
 function Components (props) {
   const messages = ['React', 'Re: React', 'Re:Re: React']
   return (
@@ -25,6 +26,7 @@ function Components (props) {
       <WarningBanner />
       <NumberList numbers={[1, 2, 3, 4, 5]} />
       <FlavorForm />
+      <Reservation />
     </div>
   )
 }
